@@ -1,0 +1,39 @@
+.card {
+    color: $neutral-white;
+    border-radius: 5px; 
+    aspect-ratio: 7 / 4;
+    width: 280px;
+
+    &__front {
+        background: url('../../images/bg-card-front.png');
+        padding: 1rem;
+
+        #card-logo__wrapper img {
+            height: 2rem;
+        }
+
+        #card-number {
+            margin: 11.5% 0 3.5% 0;
+        }
+    }
+
+    &__back {
+        background-color: white;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        #dark-space {
+            background-color: #2F2F2F;
+            width: 100%;
+            height: 10px;
+            padding: 10px;
+        }
+
+        #card-cvc {
+            background-color: #ADB5BE;
+            width: 85%;
+        }
+    }
+}

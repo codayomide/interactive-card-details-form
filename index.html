@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="stylesheet" href="styles/css/style.css">
+
+        <title>Frontend Mentor | Interactive card details form</title>
+    </head>
+
+    <body>
+        <div id="container">
+            <main id="main">
+                <section id="card-container">
+                    <div class="card card__front hide">
+                        <div id="card-logo__wrapper"><img src="./images/card-logo.svg" alt="Card Logo"></div>
+
+                        <h2 id="card-number">0000 0000 0000 0000</h2>
+
+                        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                            <p id="card-name">Jane Appleseed</p>
+                            
+                            <p id="card-date">
+                                <span id="card-date__month">00</span>/<span id="card-date__year">00</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card card__back">
+                        <div id="dark-space"></div>
+                        <div id="card-cvc">000</div>
+                    </div>
+
+                </section>
+
+                <section id="form-container">
+                    Cardholder Name
+                    e.g. Jane Appleseed
+                    Card Number
+                    e.g. 1234 5678 9123 0000
+                    Exp. Date (MM/YY)
+                    MM
+                    YY
+                    CVC
+                    e.g. 123
+                    Confirm
+                    <!-- Completed state start -->
+                    Thank you!
+                    We've added your card details
+                    Continue
+                </section>
+            </main>
+
+            <footer class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                Coded by <a href="#">Your Name Here</a>.
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+@import 'config';
+@import 'card-image';
+
+body {
+    font-family: sans-serif;
+    background-color: $neutral-white;
+}
+
+.hide {
+    display: none;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+
+#card-container {
+    background: $card-container-bg;
+}
+
+// #form-container {
+//     // background-color: yellow;
+// }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+
+    a {
+        color: hsl(228, 45%, 44%);
+    }
+}
